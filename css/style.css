@@ -844,15 +844,27 @@ section.services-section.border-btm .services-box {
 /* =  Menu section */
 /*------------------------------------------------- */
 section.menu-section {
-  padding: 100px 0 0; }
+  padding: 60px 0 0; }
   section.menu-section .menu-box {
     margin-bottom: 100px; }
     section.menu-section .menu-box.pizza-menu {
-      background: #ffffff url("../upload/banners/ban3.jpg") 0 0 no-repeat; }
+      background: #ffffff url("../upload/banners/ban3.jpg") 0 0 no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      }
     section.menu-section .menu-box.pasta-menu {
-      background: #ffffff url("../upload/banners/ban4.jpg") right 0 no-repeat; }
+      background: #ffffff url("../upload/banners/ban4.jpg") right 0 no-repeat; 
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
     section.menu-section .menu-box.burger-menu {
-      background: #ffffff url("../upload/banners/ban5.jpg") 0 0 no-repeat; }
+      background: #ffffff url("../upload/banners/ban5.jpg") 0 0 no-repeat; 
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
     section.menu-section .menu-box .image-holder img {
       width: 100%;
       height: auto; }
@@ -2539,3 +2551,15 @@ section.banner-section-pizza-works.bg-second {
 
 
 /*--end of back to top--*/
+
+.pdf-btn{
+  float: right;
+  position: relative;
+  top: -12px;
+}
+
+
+.internal-section{
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
