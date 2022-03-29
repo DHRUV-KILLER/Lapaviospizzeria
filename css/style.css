@@ -2523,11 +2523,11 @@ section.banner-section-pizza-works.bg-second {
   line-height: 28px;
 }
 
-.up-footer a{
+.up-footer, a{
   color: #000;
 }
 
-.up-footer a:hover{
+.up-footer, a:hover{
   color: #ea462b;
 }
 
@@ -2544,7 +2544,7 @@ section.banner-section-pizza-works.bg-second {
   display: none;
   z-index: 999;
   background-color: #ea462b;
-  border-color: ea462b;
+  border-color: #ea462b;
 }
 
 
@@ -2560,4 +2560,12 @@ section.banner-section-pizza-works.bg-second {
 .internal-section{
   margin-top: 60px;
   margin-bottom: 20px;
+}
+
+.copyright-text a{
+  color: #000;
+}
+
+.copyright-text a:hover{
+  color: #ea462b;
 }
