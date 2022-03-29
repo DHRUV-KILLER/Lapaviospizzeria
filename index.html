@@ -54,8 +54,12 @@
 								  <!-- Modal content -->
 								  <div class="modal-content">
 									  <div class="modal-header">
-										  <h3 class="mod-head-text text-center">Order From Options Below</h3>
-										<span class="close"><i class="fa-solid fa-xmark"></i></span>
+										  <div class="mod-head-text">
+										  <h3 class="modal-main-text">Order From Options Below</h3>
+										  </div>
+										  <div class="mod-head-icon">
+											<span class="close"><i class="fa-solid fa-xmark"></i></span>
+										  </div>
 									  </div>
 
 
@@ -792,7 +796,7 @@
 					</div>
 				</div>
 
-				<p class="copyright-line">Copyright &copy; 2022 La Pavio's Pizzeria. All rights reserved. <span class="copyright-text">Created By Dhruv Shah </span> </p>
+				<p class="copyright-line">Copyright &copy; 2022 La Pavio's Pizzeria. All rights reserved. <span class="copyright-text">Created By <a href=""> Dhruv Shah </a> </span> </p>
 				
 				<!--<a href="#" class="go-top">Back To Top</a>-->
 
@@ -989,6 +993,7 @@ function scrollFunction() {
   if (
     document.body.scrollTop > 500 ||
     document.documentElement.scrollTop > 500
+	
   ) {
     mybutton.style.display = "block";
   } else {
