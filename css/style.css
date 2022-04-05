@@ -441,6 +441,7 @@ section.page-banner-section {
     color: #ffffff; }
 
 ul.page-ban-list {
+  border-bottom: 1px solid #ebebeb;
   padding: 16px 0; }
   ul.page-ban-list li {
     display: inline-block;
@@ -844,7 +845,7 @@ section.services-section.border-btm .services-box {
 /* =  Menu section */
 /*------------------------------------------------- */
 section.menu-section {
-  padding: 60px 0 0; }
+  padding: 50px 0 70px; }
   section.menu-section .menu-box {
     margin-bottom: 100px; }
     section.menu-section .menu-box.pizza-menu {
@@ -1209,6 +1210,7 @@ section.menu-section {
 /*------------------------------------------------- */
 section.testimonial-section {
   padding: 100px 0;
+  margin: 0 0 70px 0;
   /*
    * Set a counter and get the length of the image path.
    */
@@ -2007,6 +2009,8 @@ section.contact-section .contact-info p {
     font-weight: 600;
     margin: 0 0 12px; }
   #contact-form input[type="text"],
+  #contact-form input[type="number"],
+  #contact-form input[type="email"],
   #contact-form textarea,
   #reservation-form input[type="text"],
   #reservation-form textarea {
@@ -2059,7 +2063,7 @@ section.contact-section .contact-info p {
     background: #ffffff; }
 
 section.contact-section2 {
-  padding: 70px 0; }
+  padding: 50px 0 70px  ;}
   section.contact-section2 .contact-info {
     margin-bottom: 50px;
     padding-bottom: 10px;
@@ -2394,7 +2398,7 @@ button.mod-btn:focus {
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 40%;
+  width: 35%;
 }
 
 
@@ -2569,3 +2573,82 @@ section.banner-section-pizza-works.bg-second {
 .copyright-text a:hover{
   color: #ea462b;
 }
+
+
+/*-accordian-*/
+
+.accordian-section{
+  padding: 50px 0 70px;
+}
+
+.accordion {
+  width: 100%;
+  /* Horizontally and vertically centering the accordion */
+}
+
+.accordion__collapsible {
+  border-radius: 3px;
+}
+
+.accordion__collapsible:not(:last-child) {
+  border-bottom: none;
+}
+
+.collapsible__header h3{
+  margin: 0;
+}
+
+.collapsible__header {
+  border-bottom: 1px solid #ebebeb;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.collapsible__header:hover {
+  border-bottom: 2px solid #ea462b;
+  transition: all .2s ease-in-out;
+}
+
+.collapsible__header::after {
+  content: "+";
+  position: relative;
+  right: 10px;
+  font-size: 20px;
+}
+
+
+.collapsible__content {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height .3s, opacity .3s;
+
+}
+
+.collapsible--open .collapsible__header{
+  border-bottom: 2px solid #ea462b;
+  transition: all .2s ease-in-out;
+}
+
+.collapsible--open .collapsible__header::after {
+  content: "-";
+  font-size: 20px;
+}
+
+.collapsible--open .collapsible__content {
+  max-height: 100%;
+  opacity: 1;
+}
+
+/* Content styles - To make inner content look better */
+
+
+.collapsible__content p {
+  font-size: 17px;
+  margin: 10px;
+}
+
+/*-end of accordian-*/
