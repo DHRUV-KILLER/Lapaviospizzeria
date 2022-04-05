@@ -210,8 +210,8 @@ $(document).ready(function($) {
 	/*	Contact Map
 	/* ---------------------------------------------------------------------- */
  	try {
-		var fenway = [42.345573,-71.098326]; //Change a map coordinate here!
-		var markerPosition = [42.345573,-71.098326]; //Change a map marker here!
+		var fenway = [23.0171588,72.5403214]; //Change a map coordinate here!
+		var markerPosition = [23.0171588,72.5403214]; //Change a map marker here!
 		$('#map').gmap3({
 				center: fenway,
 				zoom: 13,
