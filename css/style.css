@@ -2652,3 +2652,176 @@ section.banner-section-pizza-works.bg-second {
 }
 
 /*-end of accordian-*/
+
+@media screen and (max-width: 1366px){ 
+  
+  /* Modal Content */
+  .modal-content {
+    width: 50%;
+  }
+  
+  .mod-body-text img{
+    height: 30.7px;
+    width: 30.7px;
+    margin: 0 6px;
+  }
+}
+
+@media screen and (max-width: 1280px){ 
+  
+  /* Modal Content */
+  .modal-content {
+    width: 55%;
+  }
+
+  .close {
+    font-size: 28px;
+    padding: 1px !important;
+    margin: 0 !important;
+}
+  
+  .modal-content h3{
+    font-size: 22px;
+  }
+
+  .modal-content a.button-one {
+    font-size: 17px;
+  }
+  
+  .mod-body-text p{
+    font-size: 16px;
+  }
+  
+}
+
+@media screen and (max-width: 1199px){ 
+  
+  /* Modal Content */
+  .modal-content {
+    width: 55%;
+  }
+  
+  .modal-content h3{
+    font-size: 22px;
+  }
+
+  .modal-content a.button-one {
+    font-size: 17px;
+  }
+  
+  .mod-body-text p{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1024px){ 
+  
+  /* Modal Content */
+  .modal-content {
+    width: 60%;
+  }
+  
+  .modal-content h3{
+    font-size: 21px;
+  }
+
+  .modal-content a.button-one {
+    font-size: 16px;
+  }
+  
+  .mod-body-text p{
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 991px){ 
+  
+  /* Modal Content */
+  .modal-content {
+    width: 60%;
+  }
+  
+  .modal-content h3{
+    font-size: 20px;
+  }
+
+  .modal-content a.button-one {
+    font-size: 15px;
+  }
+  
+  .mod-body-text p{
+    font-size: 14px;
+  }
+  .mod-body-text .mod-link{
+    margin-top: 5px;
+    padding: 0 0 0 21px !important;
+  }
+  .close {
+    font-size: 28px;
+    padding: 2px !important;
+    margin: 0 !important;
+  }
+  .modal-content a.button-one{
+    padding: 10px 35px !important;
+    display: inline-block;
+  }
+
+}
+
+@media screen and (max-width: 767px){ 
+.modal-content {
+  width: 50%;
+}
+
+.modal-content h3{
+  font-size: 22px;
+}
+
+.modal-content a.button-one {
+  font-size: 17px;
+}
+
+.mod-body-text p{
+  font-size: 16px;
+}
+.mod-body-text img{
+  height: 30px;
+  width: 30px;
+}
+.mod-text-border{
+  border-left: 0;
+  border-top: #000 1px solid;
+  padding-top: 1rem;
+}
+.modal-content a.button-one{
+  margin-bottom: 1rem;
+}
+
+.reverse-column{
+  flex-direction: column-reverse;  
+}
+
+}
+
+@media screen and (max-width: 640px){ 
+  .modal-content {
+    width: 60%;
+  }
+  
+  .modal-content h3{
+    font-size: 21px;
+  }
+  
+  .modal-content a.button-one {
+    font-size: 16px;
+  }
+  
+  .mod-body-text p{
+    font-size: 15px;
+  }
+  .mod-body-text img{
+    height: 30px;
+    width: 30px;
+  }
+  
+  }
