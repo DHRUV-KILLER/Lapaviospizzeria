@@ -41,8 +41,7 @@
 	if(isset($_POST['name']) and isset($_POST['mail']) and isset($_POST['comment'])){
 		$name 	 = $_POST['name'];
 		$mail 	 = $_POST['mail'];
-		$website  = $_POST['website'];
-		$subject  = $_POST['subject'];
+		$website  = $_POST['tel-number'];
 		$comment = $_POST['comment'];
 
 		if($name == '') {
@@ -74,13 +73,10 @@
 				  <td align="left" style="padding-left:5px; line-height: 20px;">'. $mail .'</td>
 				</tr>
 				<tr style="height: 32px;">
-				  <th align="right" style="width:150px; padding-right:5px;">Website:</th>
+				  <th align="right" style="width:150px; padding-right:5px;">tel-number:</th>
 				  <td align="left" style="padding-left:5px; line-height: 20px;">'. $website .'</td>
 				</tr>
-				<tr style="height: 32px;">
-				  <th align="right" style="width:150px; padding-right:5px;">Subject:</th>
-				  <td align="left" style="padding-left:5px; line-height: 20px;">'. $subject .'</td>
-				</tr>
+			
 				<tr style="height: 32px;">
 				  <th align="right" style="width:150px; padding-right:5px;">Comment:</th>
 				  <td align="left" style="padding-left:5px; line-height: 20px;">'. $comment .'</td>
